@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import './styles/App.css';
 
 function App() {
   const [image, setImage] = useState(null);
@@ -16,7 +15,7 @@ function App() {
 
   return (
     <div>
-        <img src={image} alt="" /> 
+        
     </div>
   )
 }
