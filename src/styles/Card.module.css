@@ -1,5 +1,27 @@
 .Card {
-    background-color: black;
-    width: 200px;
-    height: 400px;
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    border-radius: 10px;
+    padding: 1rem 1rem 1rem 0;
+    color: #9EC8B9;
+}
+
+.Card img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.Card > div:nth-child(2) {
+    position: relative;
+}
+
+.Card > div:nth-child(2) > * {
+    margin-bottom: 20px;
+}
+
+.Card .title {}
+.Card .description {}
+.Card .popularity {
+    position: absolute;
+    bottom: 0;
 }

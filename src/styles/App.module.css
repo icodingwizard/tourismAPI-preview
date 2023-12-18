@@ -1,0 +1,46 @@
+.header {
+    color: white;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100vw;
+    padding-inline: 5rem;
+}
+
+.wrapper > *{
+    margin-top: 30px;
+}
+
+article {
+    background-color: #9EC8B9;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+article > p {
+    color:  #1B4242;
+}
+
+article > h2 {
+    color: #9EC8B9;
+    padding: .6rem 1rem;
+    border-radius: 10px;
+    background-color: #092635;
+    margin-bottom: 1rem;
+    width: fit-content;
+}
+
+h2 {
+    color: #9EC8B9;
+}
+
+.previewPicture{
+    height: 450px;
+
+}
+
+.cardsWrapper > * {
+    margin-top: 30px;
+}
