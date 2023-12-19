@@ -44,3 +44,26 @@ h2 {
 .cardsWrapper > * {
     margin-top: 30px;
 }
+
+
+@media (max-width: 1250px) { 
+    .cardsWrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    article { 
+        background-color: #092635;
+        padding: 0;
+    }
+
+    article > p {
+        color: #9EC8B9;
+    }
+
+    .wrapper {
+        padding-inline: 15vw;
+    }
+}

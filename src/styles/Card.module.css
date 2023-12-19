@@ -19,9 +19,37 @@
     margin-bottom: 20px;
 }
 
-.Card .title {}
-.Card .description {}
-.Card .popularity {
-    position: absolute;
-    bottom: 0;
+.Card .title {
+    background-color:  #9EC8B9;;
+    color: #092635;
+    width: fit-content;
+    padding: .7rem 1rem;
+    border-radius: 10px;
+}
+
+.Card .description {
+    line-height: 1.6;
+}
+
+
+@media (max-width: 1250px) {
+
+
+    .Card {
+        grid-template-columns: min(500px, 70vw);
+    }
+
+    .Card img {
+        width: min(500px, 70vw);
+    }
+
+    .Card .title {
+        margin-top: 20px;
+        font-size: 1em;
+    }
+
+    .Card .description {
+        font-size: .8em;
+    }
+
 }
